@@ -1,6 +1,6 @@
 def call (){
   pipeline {
-    agent { label 'NODEJ1-JDK11' }
+    agent { label 'NODEJS-JDK11' }
     stages {
         stage('git') { 
             steps {
