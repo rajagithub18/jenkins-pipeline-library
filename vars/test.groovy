@@ -4,8 +4,7 @@ def call (){
     stages {
         stage('git') { 
             steps {
-                git url: 'https://github.com/rajagithub18/spring-petclinic.git',
-                branch: 'main'
+                 sh'echo raja'
             }
         }
     }
